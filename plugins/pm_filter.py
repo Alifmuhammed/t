@@ -958,3 +958,17 @@ async def manual_filters(client, message, text=False):
                 break
     else:
         return False
+
+for i in Mo_Tech_YT.MO_TECH_YT_06.split() :
+       if i in the_query.lower() :
+          buttons = [[
+                  InlineKeyboardButton("Help🥴",callback_data="help_me")
+                  ]]
+          reply_markup = InlineKeyboardMarkup(buttons)
+          await bot.send_message
+          text="<b> കിട്ടോ, അയക്കോ, ഉണ്ടോ, തരുമോ എന്ന് ഒന്നും ചോദിക്കേണ്ട സിനിമയുടെ പേര് മാത്രം കൃത്യമായി അയക്കുക</b> 😪",
+          chat_id=update.chat.id,
+          reply_to_message_id=update.message_id,
+          parse_mode="html",
+          reply_markup=reply_markup)
+          return
